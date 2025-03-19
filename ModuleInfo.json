@@ -1,0 +1,17 @@
+{
+  "Name": "SMG2_SimpleMirrorObj",
+  "Author": "Super Hackio",
+  "Description": "Ports the removed SimpleMirrorObj back into SMG2 as a ProductMapObjDataTable class, allowing the game to render Mirror Actors with MirrorArea.",
+  "InstallDependencies": [ "Syati_ObjectFactories" ],
+  "ModuleData": [
+    {
+      "ProductMapObj": [
+        {
+          "Name": "SimpleMirrorObj",
+          "Function": "createExtActor<SimpleMirrorObj>",
+          "Include": "SimpleMirrorObj.h"
+        }
+      ]
+    }
+  ]
+}
