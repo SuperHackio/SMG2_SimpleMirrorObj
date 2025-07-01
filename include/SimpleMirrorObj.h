@@ -1,3 +1,5 @@
+#pragma once
+
 #include "syati.h"
 
 class SimpleMirrorObj : public MapObjActor {
